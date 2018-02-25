@@ -1,3 +1,5 @@
+*[Click here for a text-only version of this page](SOLUTION_CONT2.md)*
+
 There are two main ways to approach the situation: we can use a x86 emulator (e.g. [Unicorn](http://www.unicorn-engine.org/)), or use a debugger to hijack any program's execution flow and replace its instructions with the ones given in our dump. I found the latter method a lot more fun, and even potentially faster, so in this solution we will stick to it.
 
 The first step is to find a debugger. I use **Windows**, so I settled for the powerful [x64dbg](https://x64dbg.com).
